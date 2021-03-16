@@ -1,0 +1,30 @@
+ADICIONE O ARQUIVO OU FAÇA ALTERAÇÃO EM UM ARQUIVO EXISTENTE NA PASTA DO REPOSITORIO DO GITHUB, FEITO ISSO USE O COMANDO
+
+git status (Esse comando vai mostrar toda a alteração que foi feita)
+
+vai apresentar que há arquivos não trackeados, ou seja que o github reconhece mais não faz parte do projeto, para que você possa adicionar use o comando:
+
+git add nome_do_arquivo.extenção
+
+ou se o arquivo estiver dentro de uma pasta use o comando
+
+git add pasta/nome_do_arquivo.extenção
+
+após adicionar é necessário adicionar um comentário da alteração realizada para isso use o comando
+
+git commit -m "Comentário da mudança feita"
+
+após ter feito isso só realizar o envio pro git hub com o comando:
+
+git push 
+
+tendo feito o envio, o repositorio irá atualizar no site do git hub, para que a informação suba na maquina das demais pessoas
+que possuem o mesmo arquivo na maquina, estas pessoas deveram abrir o terminal e usar o comando:
+
+git pull
+
+tendo feito isso toda a informação feita já irá apresentar na maquina de todos os colaboradores do repositório =D
+
+
+
+
