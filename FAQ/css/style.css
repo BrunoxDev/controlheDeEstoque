@@ -1,0 +1,86 @@
+body{
+    font-family: Georgia, serif;
+    background: #21182d;
+}
+
+/*PERGUNTAS FREQUENTES centralizado*/
+.intro{
+    padding: 100px 0;
+    color: red;
+    text-align: center;
+}
+
+/*Deixa o fonte em maiusculo*/
+.intro h1{
+    text-transform: uppercase;
+}
+
+/*PRODUTOS*/
+.faq1{
+    padding: 50px 0;
+    color: red;
+    text-align: center;
+}
+
+.faq1 p{
+    margin: 35px auto;
+    line-height: 1.5em;
+    max-width: 500px;
+}
+
+/*COMO COMPRAR*/
+.faq2 {
+    padding: 50px 0;
+    color: red;
+    text-align: center;
+}
+
+.faq2 p{
+    margin: 35px auto;
+    line-height: 1.5em;
+    max-width: 500px;
+}
+
+/*CADASTRO DE CLIENTE*/
+.faq3{
+    padding: 50px 0;
+    color: red;
+    text-align: center;
+}
+
+.faq3 p{
+    margin: 10px auto;
+    line-height: 1.5em;
+    max-width: 500px;
+}
+
+/*SENHA*/
+.faq4{
+    padding: 50px 0;
+    color: red;
+    text-align: center;
+}
+
+.faq4 p{
+    margin: 10px auto;
+    line-height: 1.5em;
+    max-width: 500px;
+}
+
+.linkSenha{
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
