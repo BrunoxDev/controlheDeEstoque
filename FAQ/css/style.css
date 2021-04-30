@@ -1,6 +1,36 @@
+/*Reset*/
+body, h1, h3, p{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Fonte/Fundo do site*/
 body{
     font-family: Georgia, serif;
     background: #21182d;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+    background: #150B17;
+    padding: 30px 0;
+}
+
+.quadbox-conteiner{
+    max-width: 1360px; 
+    margin: 5px auto 0px auto;
+}
+
+/*Arruma um "bug" do cabeçalho quando aplica o float*/
+.quadbox-conteiner::after, .quadbox-conteiner::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.quadbox-logo{
+    display: block;
+    float: left;
 }
 
 /*PERGUNTAS FREQUENTES centralizado*/
@@ -10,7 +40,7 @@ body{
     text-align: center;
 }
 
-/*Deixa o fonte em maiusculo*/
+/*Deixa o fonte em  maiusculo*/
 .intro h1{
     text-transform: uppercase;
 }
@@ -69,6 +99,11 @@ body{
 
 .linkSenha{
     color: brown;
+}
+
+.rodape{
+    background: #150B17;
+    padding: 45px 0;
 }
 
 
