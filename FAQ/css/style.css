@@ -1,5 +1,5 @@
 /*Reset*/
-body, h1, h3, p{
+body, h3, p{
     padding: 0px;
     margin: 0px;
 }
@@ -8,11 +8,12 @@ body, h1, h3, p{
 body{
     font-family: Georgia, serif;
     background: #21182d;
+    color: aliceblue;
 }
 
 /*Cabeçalho*/
 .cabecalho{
-    background: #150B17;
+    background: #1e0f24;
     padding: 30px 0;
 }
 
@@ -33,10 +34,10 @@ body{
     float: left;
 }
 
+
 /*PERGUNTAS FREQUENTES centralizado*/
 .intro{
     padding: 100px 0;
-    color: red;
     text-align: center;
 }
 
@@ -45,64 +46,95 @@ body{
     text-transform: uppercase;
 }
 
+
 /*PRODUTOS*/
 .faq1{
     padding: 50px 0;
-    color: red;
     text-align: center;
 }
 
+.faq1 h1{
+    margin: 50px auto;
+}
+
 .faq1 p{
-    margin: 35px auto;
+    margin: 20px auto 100px auto;
     line-height: 1.5em;
     max-width: 500px;
 }
+
 
 /*COMO COMPRAR*/
 .faq2 {
     padding: 50px 0;
-    color: red;
     text-align: center;
 }
 
+.faq2 h1{
+    margin: 50px auto;
+}
+
 .faq2 p{
-    margin: 35px auto;
+    margin: 20px auto 100px auto;
     line-height: 1.5em;
     max-width: 500px;
 }
 
+
 /*CADASTRO DE CLIENTE*/
 .faq3{
     padding: 50px 0;
-    color: red;
     text-align: center;
 }
 
+.faq3 h1{
+    margin: 50px auto;
+}
+
 .faq3 p{
-    margin: 10px auto;
+    margin: 20px auto 100px auto;
+    line-height: 1.5em;
+    max-width: 500px;
+}
+
+/*PEDIDOS*/
+.faq4{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.faq4 h1{
+    margin: 50px auto;
+}
+
+.faq4 p{
+    margin: 20px auto 100px auto;
     line-height: 1.5em;
     max-width: 500px;
 }
 
 /*SENHA*/
-.faq4{
+.faq5{
     padding: 50px 0;
-    color: red;
     text-align: center;
 }
 
-.faq4 p{
-    margin: 10px auto;
+.faq5 h1{
+    margin: 50px auto;
+}
+
+.faq5 p{
+    margin: 20px auto 100px auto;
     line-height: 1.5em;
     max-width: 500px;
 }
 
 .linkSenha{
-    color: brown;
+    color: darksalmon;
 }
 
 .rodape{
-    background: #150B17;
+    background: #1e0f24;
     padding: 45px 0;
 }
 
